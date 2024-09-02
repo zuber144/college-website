@@ -22,7 +22,7 @@ const Header = () => {
               <div className="dropdown-content">
                 <a href="#">As a Admin</a>
                 <Link to="/hodlog">As a HOD</Link>
-                <a href="#">As a Teacher</a>
+                <Link to="/teacherlog">As a Teacher</Link>
                 <a href="#">As a Parent</a>
               </div>
             </div>

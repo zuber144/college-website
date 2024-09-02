@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const HodLog = () => {
+const TeacherLog = () => {
   const [passwordvisible, setpasswordvisible] = useState(false);
 
   function togglepass() {
@@ -10,7 +10,7 @@ const HodLog = () => {
   return (
     <>
       <h2 id="hd" align="center">
-        HOD Log-In
+        Teacher Log-In
       </h2>
       <form className="form-container" action="#" autoComplete="off">
         <div className="inputBox">
@@ -44,4 +44,4 @@ const HodLog = () => {
   );
 };
 
-export default HodLog;
+export default TeacherLog;
