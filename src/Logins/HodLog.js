@@ -35,10 +35,12 @@ const HodLog = () => {
         <a href="#">Forgot password</a>
         <button className="submit-button">Login</button>
         <hr />
-        <p>If not registered</p>
-        <a href="#" id="sin">
-          Sign-Up
-        </a>
+        <p>
+          Do not have an account?{" "}
+          <a href="#" id="sin">
+            Register
+          </a>
+        </p>
       </form>
     </>
   );

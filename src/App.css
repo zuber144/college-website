@@ -36,6 +36,7 @@ nav{
   transition: border-color 0.5s;
   &:hover{
     border-bottom: 2px solid #FF6600;
+    color: #CC5200;
   }
 }
 
@@ -57,6 +58,7 @@ nav{
   transition: border-color 0.5s;
   &:hover{
     border-bottom: 2px solid #FF6600;
+    color: #CC5200;
   }
 }
 
@@ -67,7 +69,7 @@ nav{
   width: fit-content;
   padding: 8px 0;
   box-shadow: 0 8px 12px 0px rgba(0,0,0,0.4);
-  z-index: 9;
+  z-index: 9999;
 }
 .dropdown-content a{
   float: none;
@@ -82,7 +84,7 @@ nav{
   transition: border-color ease .5s;
   &:hover{
     border-bottom: 2px solid #FF6600;
-
+    color: #CC5200;
   }
 }
 
@@ -101,13 +103,16 @@ nav{
   margin: 10px;
   font-size: 20px;
   border-radius: 30px;
-  transition: transform ease .5s, scale ease .2s;
+  transition: all ease .5s, scale ease .2s;
   z-index: -1;
   &:active{
     scale: .9;
   }
   &:hover{
     transform: translate(5px, -3px);
+    background-color: #FF6600;
+    border-color: #ff66007a;
+    color: white;
     box-shadow: 0 5px 3px 3px rgba(0,0,0,0.2);
   }
 }
@@ -115,7 +120,7 @@ nav{
 #btns{
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -207,7 +212,6 @@ nav{
   top: 43%;
   left: 50%;
   translate: -50% -50%;
-  /* border: 1px solid; */
 }
 
 .inputBox{

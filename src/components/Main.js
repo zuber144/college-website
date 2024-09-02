@@ -8,11 +8,11 @@ const Main = () => {
       <main id="mi">
         <h2 className="h2">Welcome To SGP Portal</h2>
         <p className="h2">Use these links to Login respectively.</p>
-        <marquee>
+        {/* <marquee>
           This portal was created so that parents can check attendance and
           internal marks of their children and teachers can update their
           student's attendance and internal marks.
-        </marquee>
+        </marquee> */}
         <div id="btns">
           <a href="#" id="parent">
             <button className="btn">Go as a Parent</button>
